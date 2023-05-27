@@ -1,0 +1,107 @@
+/* Placeholder styles for the homepage sections */
+
+/* Hero Section */
+.hero {
+    opacity: 0,1;
+    background-size: cover;
+    background-position: center;
+    color: #655050;
+    text-align: center;
+    padding: 100px 0;
+    position: relative;
+  }
+  
+  .hero::before {
+    
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the transparency as needed */
+  }
+  
+  .hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 18px;
+  }
+  
+  /* About Section */
+  .about {
+    background-color: #f5f5f5;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .about h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .about p {
+    font-size: 16px;
+  }
+  
+  /* Services Section */
+  .services {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .services h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .services p {
+    font-size: 16px;
+  }
+  
+  /* Photo Gallery Section */
+  .gallery {
+    background-color: #ffffff;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .gallery h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  /* Testimonials Section */
+  .testimonials {
+    background-color: #f5f5f5;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .testimonials h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  /* Contact Section */
+  .contact {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .contact h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  /* Footer Section */
+  .footer {
+    background-color: #714523;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 14px;
+  }
+  
+  .footer p {
+    margin: 0;
+  }
+  
+  

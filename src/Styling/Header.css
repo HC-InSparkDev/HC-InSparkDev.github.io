@@ -1,0 +1,35 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #714523;
+    color: #ffffff;
+    padding: 10px;
+  }
+  
+  .navigation ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navigation ul li {
+    display: inline-block;
+  }
+  
+  .navigation ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navigation ul li a:hover {
+    background-color: #ffffff;
+    color: #714523;
+  }
+  
+  .logo img {
+    height: 60px; /* Adjust the height as needed */
+  }
